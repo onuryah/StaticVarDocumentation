@@ -29,6 +29,7 @@ var rabbit = Animals()
 rabbit.weight = 40
 rabbit.name = "Mike"
 rabbit.flyable = false
+rabbit.height = 5
 
 rabbit.normalEat()
 rabbit.weight
@@ -44,6 +45,9 @@ Animals.bird.weight = 10
 Animals.bird.name = "Jake"
 Animals.bird.flyable = true
 
+//height that is a entity before defination of static var works
+Animals.bird.height = 30
+
 Animals.bird.normalEat()
 Animals.bird.weight
 
@@ -58,6 +62,7 @@ var bat = Animals.bird
 bat.weight
 bat.name
 bat.flyable
+bat.height
 
 
 //Bat gets her properties from bird via "Inheritance".
